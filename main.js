@@ -22,7 +22,8 @@ function check(gpa) {
     else if (gpa > 0.0 && gpa <= 0.8) return "E";
 }
 
-let form = document.querySelector('form'),
+let box = document.querySelector('main'),
+    form = document.querySelector('form'),
     input = document.querySelector('#gpa'),
     desc = document.querySelector('#desc'),
     grade = document.querySelector('#grade');
@@ -44,10 +45,12 @@ let darkButton = document.querySelector('#darkMode');
 darkButton.addEventListener('click', () => {
     if (!isDarkMode) {
         document.body.style.backgroundColor = 'black';
+        box.style.backgroundColor = 'rgba(255, 255, 255, 0.1)';
         document.body.style.color = 'white';
         isDarkMode = true;
     } else {
         document.body.style.backgroundColor = '';
+        box.style.backgroundColor = 'rgba(0, 0, 0, 0.1)';
         document.body.style.color = '';
         isDarkMode = false;
     }
