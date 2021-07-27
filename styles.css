@@ -10,6 +10,7 @@ body {
     background-color: rgba(127, 255, 212, 0.7);
     display: grid;
     place-items: center;
+    transition-duration: 0.4s;
 }
 
 main {
@@ -102,4 +103,16 @@ input[type="submit"] {
     #grade {
         font-size: 1.4rem;
     }
+}
+
+/* Dark Mode */
+#darkMode {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 5;
 }

@@ -37,3 +37,18 @@ form.addEventListener('submit', (e) => {
         desc.textContent = gradeDescription[res];
     }
 });
+
+// darkmode
+let isDarkMode = false;
+let darkButton = document.querySelector('#darkMode');
+darkButton.addEventListener('click', () => {
+    if (!isDarkMode) {
+        document.body.style.backgroundColor = 'black';
+        document.body.style.color = 'white';
+        isDarkMode = true;
+    } else {
+        document.body.style.backgroundColor = '';
+        document.body.style.color = '';
+        isDarkMode = false;
+    }
+});
