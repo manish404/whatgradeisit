@@ -10,29 +10,27 @@ body {
     background-color: rgba(127, 255, 212, 0.7);
     display: grid;
     place-items: center;
-    transition-duration: 0.4s;
+    transition-duration: 0.3s;
 }
 
 main {
     text-align: center;
     width: 470px;
-    height: 320px;
     box-shadow: 1px 2px 5px black;
     background-color: rgba(0, 0, 0, 0.1);
     border-radius: 4px;
     margin-bottom: 1rem;
-    padding: 1rem 2rem;
+    padding: 1.5rem 2rem;
     overflow: hidden;
 }
 
 form {
     width: 100%;
-    height: 28%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    margin: 4rem 0;
+    margin: 3.1rem 0;
 }
 
 input {
@@ -44,19 +42,20 @@ input {
 }
 
 input[type="text"] {
-    height: 50%;
-    padding: .1rem .4rem;
-    font-size: 1rem;
+    padding: .2rem .4rem;
+    font-size: 1.4rem;
+    margin: .2rem 0;
 }
 
 input[type="submit"] {
-    padding: .6rem .5rem;
+    padding: .5rem;
     cursor: pointer;
     font-size: .9rem;
     margin-left: 5rem;
 }
 
 #result p {
+    width: 100%;
     font-size: 1.2rem;
     letter-spacing: 1px;
 }
@@ -75,11 +74,11 @@ input[type="submit"] {
 @media screen and (max-width: 600px) {
     main {
         width: 300px;
-        height: 270px;
     }
 
-    #form {
-        height: 20%;
+    form {
+        height: 32%;
+        margin: 2rem 0;
     }
 
     input {
