@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(127, 255, 212, 0.7);
+    display: grid;
+    place-items: center;
+}
+
+main {
+    text-align: center;
+    width: 470px;
+    height: 320px;
+    box-shadow: 1px 2px 5px black;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    padding: 1rem 2rem;
+    overflow: hidden;
+}
+
+form {
+    width: 100%;
+    height: 28%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 4rem 0;
+}
+
+input {
+    width: 20%;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+input[type="text"] {
+    height: 50%;
+    padding: .1rem .4rem;
+    font-size: 1rem;
+}
+
+input[type="submit"] {
+    padding: .6rem .5rem;
+    cursor: pointer;
+    font-size: .9rem;
+    margin-left: 5rem;
+}
+
+#result p {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+#desc {
+    letter-spacing: normal;
+    color: red;
+}
+
+#grade {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+
+@media screen and (max-width: 600px) {
+    main {
+        width: 300px;
+        height: 270px;
+    }
+
+    #form {
+        height: 20%;
+    }
+
+    input {
+        width: 28%;
+    }
+
+    input[type="text"] {
+        height: 80%;
+        font-size: 1.4rem;
+        margin: 1rem 0;
+    }
+
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    #result p{
+        font-size: 1rem;
+    }
+
+    #grade {
+        font-size: 1.4rem;
+    }
+}
