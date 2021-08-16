@@ -16,7 +16,7 @@
 | 2.4 - 2.8 | B | Good |
 | 2.0 - 2.4 | C+ | Satisfactory |
 | 1.6 - 2.0 | C | Acceptable |
-| 1.2 - 1.6 | D+ | Partially Aceptable |
+| 1.2 - 1.6 | D+ | Partially Acceptable |
 | 0.8 - 1.2 | D | Insufficient |
 | 0.0 - 0.8 | E | Very Insufficient |
 
