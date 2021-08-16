@@ -1,4 +1,4 @@
-[Website - https://manish404.github.io/whatgradeismyGPA/](https://manish404.github.io/whatgradeismyGPA/)
+[Website - https://manish404.github.io/whatgradeisit/](https://manish404.github.io/whatgradeisit/)
 
 # 
 
